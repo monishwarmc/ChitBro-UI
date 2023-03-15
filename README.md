@@ -30,4 +30,4 @@ A decentralised Chit-Fund app that cannot involve in fraud even if it wants to.
 Read more about the project and more context about Chit
 Funds [here](https://www.notion.so/DeFi-Chit-e364c2cd701745afa924e117d4e3bdcd). The Presentation used during the
 hackathon [here](https://cdn.discordapp.com/attachments/855532921867468851/856614941720838184/ChitBro_Presentation.pdf).
-> Note: Web UI Design inspired from [pooltogether](app.pooltogether.com)
+> Note: Web UI Design inspired from [pooltogether](app.pooltogether.com)# -seatu
