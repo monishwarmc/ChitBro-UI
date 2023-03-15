@@ -35,7 +35,7 @@ const Header = () => {
         <div className="header">
             <img src={logo} alt='logo'/>
             <div id="seat">
-                SEETU
+                C2
             </div>
             <button onClick={handleConnect} title={account ? "Copy to Clipboard" : "Connect"}>{account || "Connect"}</button>
         </div>
