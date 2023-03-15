@@ -3,6 +3,8 @@ import { useDispatch, useSelector } from 'react-redux'
 import { CONTRACTS_SUCCESS } from '../../../redux/types';
 import { Web3Connect } from '../../../services';
 import './Header.scss'
+import './header.css'
+import logo from '../../../assets/piggy-bank.png';
 
 const Header = () => {
 
@@ -31,7 +33,10 @@ const Header = () => {
 
     return (
         <div className="header">
-            <div>ChitBro</div>
+            <img src={logo} alt='logo'/>
+            <div id="seat">
+                SEETU
+            </div>
             <button onClick={handleConnect} title={account ? "Copy to Clipboard" : "Connect"}>{account || "Connect"}</button>
         </div>
     )
