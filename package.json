@@ -58,5 +58,6 @@
   "description": "A decentralised Chit-Fund app that cannot involve in fraud even if it wants to.",
   "main": "index.js",
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {}
 }
