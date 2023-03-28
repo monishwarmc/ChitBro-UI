@@ -1,13 +1,14 @@
 .team{
     text-align: center;
     font-size: 2rem;
-    color: rgb(1, 47, 250);
+    color: rgb(250, 1, 1);
 }
 
 
 .mem{
     display: flex;
     margin: 2rem;
+    border: solid 5px black;
     float: left;
     color: rgb(28, 200, 206);
 }

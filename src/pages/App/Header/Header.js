@@ -5,7 +5,6 @@ import { Web3Connect } from '../../../services';
 import './Header.scss'
 import './header.css'
 import logo from '../../../assets/piggy-bank.png';
-import Team from '../team/Team.js';
 
 const Header = () => {
 
