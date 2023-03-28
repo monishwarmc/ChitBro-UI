@@ -5,6 +5,7 @@ import { Web3Connect } from '../../../services';
 import './Header.scss'
 import './header.css'
 import logo from '../../../assets/piggy-bank.png';
+import Team from '../team/Team.js';
 
 const Header = () => {
 
@@ -19,7 +20,6 @@ const Header = () => {
         catch (err) {
             console.log(err)
         }
-        // eslint-disable-next-line react-hooks/exhaustive-deps
     }
 
     const handleConnect = () => {
@@ -33,9 +33,9 @@ const Header = () => {
 
     return (
         <div className="header">
-            <img src={logo} alt='logo'/>
+            <img src={logo} alt='logo' id='logo'/>
             <div id="seat">
-                C2
+                CHITZ
             </div>
             <button onClick={handleConnect} title={account ? "Copy to Clipboard" : "Connect"}>{account || "Connect"}</button>
         </div>

@@ -3,6 +3,7 @@ import './Navbar.scss'
 import { GiReceiveMoney } from 'react-icons/gi'
 import { AiFillDashboard } from 'react-icons/ai'
 import { RiAuctionFill } from 'react-icons/ri'
+import Team from '../../pages/App/team/Team.js'
 
 const Navbar = ({ tab, setTab }) => {
 
@@ -21,6 +22,12 @@ const Navbar = ({ tab, setTab }) => {
             <button className={tab === "auction" ? "selected" : ""} onClick={() => setTab("auction")}>
                 <div className={"button-container"}>
                     <RiAuctionFill />Auctions
+                </div>
+            </button>
+            <button className={tab === "team" ? "selected" : ""} onClick={() => setTab("team")}>
+                TEAM
+                <div className={"button-container"}>
+                    <Team/>
                 </div>
             </button>
         </div>

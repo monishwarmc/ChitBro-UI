@@ -1,3 +1,5 @@
+//SPDX-License-Identifier: UNLICENSED
+
 pragma solidity ^0.8.5;
 
 contract ChitManager {
@@ -16,7 +18,7 @@ contract ChitManager {
         uint256 createdAt;
         uint256 nextPaymentDate;
         uint256 roomCapacity;
-        uint256 timePeriod; // Time period from one auction to another
+        uint256 timePeriod; // Time period from one auction to another 
         uint256 poolAmount;
         uint256 chitDuration; // Entire chit duration eg. 5 months
         bool roomFilled;

@@ -5,6 +5,7 @@ import Navbar from '../../components/Navbar/Navbar';
 import Dashboard from './Dashboard/Dashboard';
 import Chits from './Chits/Chits';
 import Auction from './Auction/Auction';
+import Team from './team/Team.js';
 import { Web3Connect } from '../../services';
 import { CONTRACTS_SUCCESS } from '../../redux/types';
 import './App.scss';
@@ -49,6 +50,7 @@ const App = () => {
       {tab === "dashboard" && <Dashboard />}
       {tab === "chits" && <Chits />}
       {tab === "auction" && <Auction />}
+      {tab === "team" && <Team />}
       <Navbar setTab={setTab} tab={tab} />
     </div>
   )
